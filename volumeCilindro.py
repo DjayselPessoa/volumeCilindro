@@ -18,6 +18,6 @@ while ativo:
             print("Reiniciando!")
             ativo = True
         else:
-            raise ValueError("Escolha S ou C")
+            raise ValueError("Informação não reconhecida! Reiniciando aplicação!")
     except ValueError as e:
         print("Erro", e)
